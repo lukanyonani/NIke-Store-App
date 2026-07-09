@@ -1,5 +1,31 @@
 # Nike Store App
 
-is a cutting-edge Flutter mobile application that revolutionizes shoe discovery through immersive 3D visualization and cinema-quality animations. The app leverages advanced Three.js integration to render photorealistic 3D shoe models that users can rotate, zoom, and inspect from every angle with intuitive touch gestures, while sophisticated Flutter animation controllers orchestrate smooth transitions, elastic bounces, and dynamic lighting effects that respond to user interactions.
+A Flutter shoe-shopping concept app with interactive 3D product viewing — rotate and inspect each shoe as a 3D model instead of flipping through static photos.
 
-Each shoe is presented as an interactive 3D object floating in space with realistic shadows and materials, allowing customers to examine texture details, sole patterns, and construction quality as if holding the actual product, while categories smoothly morph between different collections (New Releases, Men's, Women's, Kids) with fluid geometric transitions and the search functionality includes 3D particle effects that animate around matching results, creating an engaging shopping experience that bridges the gap between digital browsing and physical retail through immersive technology.
+## Features
+
+- Browse a shoe catalog with an animated, focus-aware search bar
+- Product detail screen with an interactive 3D model viewer (`o3d` / `flutter_3d_controller`)
+- Splash screen and smooth screen transitions
+
+## Tech stack
+
+- **Flutter**
+- `model_viewer_plus`, `flutter_3d_controller`, `o3d` for 3D model rendering
+
+## Project layout
+
+```
+lib/
+  views/
+    splashscreen.dart
+    home_screen.dart
+    detail_screen.dart
+```
+
+## Getting started
+
+```bash
+flutter pub get
+flutter run
+```
